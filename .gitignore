@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Text Storage
+fighterData.json
+
 # C extensions
 *.so
 
