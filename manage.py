@@ -3,13 +3,6 @@
 import os
 import sys
 
-from py2neo import neo4j
-from py2neo import node, rel
-from mmamathapi.modules.models import Fighter
-
-def initialize_neo4j_database():
-  db = neo4j.GraphDatabaseService('http://localhost:7474/db/data')
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mmamathapi.settings')
